@@ -5,7 +5,7 @@ Below are the screenshots showcasing the interface of the minimalist **RAG Docum
 ---
 
 ### 1. Welcome & Empty State
-When the application first loads, it displays a clean, distraction-free landing state. There are no decorative emojis or clutter, offering a straightforward, professional design.
+When the application first loads, it displays a clean, distraction-free landing state.
 * **Upload Section**: Standard area supporting drag-and-drop or click-to-upload for PDF/TXT files.
 * **Document Status**: Displays "No documents uploaded yet" in a muted gray block.
 * **Query Panel**: Prompts the user to enter their question, with the submit button locked to a prominent minimalist black focus state.
