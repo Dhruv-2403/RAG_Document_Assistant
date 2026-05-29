@@ -134,7 +134,8 @@ http://localhost:8000
 2. **FastAPI**: Modern, fast, with automatic API documentation
 3. **LangChain**: Simplifies RAG pipeline implementation
 4. **Chunking Strategy**: 1000 characters with 200 character overlap for context preservation
-5. **Embedding Model**: OpenAI text-embedding-ada-002 (cost-effective and performant)
+5. **Embedding Model**: sentence-transformers all-MiniLM-L6-v2 (free)
+6. **LLM**: llama-3.3-70b-versatile (Groq)
 
 ## Assumptions
 
@@ -144,16 +145,4 @@ http://localhost:8000
 4. Documents stored in vector DB persist between sessions
 5. Maximum file size: 10MB per document
 
-## Future Enhancements
 
-- [ ] Support for more file formats (DOCX, CSV, etc.)
-- [ ] Multi-user support with authentication
-- [ ] Document management (delete individual documents)
-- [ ] Conversation history
-- [ ] Advanced chunking strategies
-- [ ] Support for local LLMs (Ollama, LlamaCPP)
-- [ ] Streaming responses
-
-## License
-
-MIT
