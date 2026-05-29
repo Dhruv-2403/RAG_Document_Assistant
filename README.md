@@ -121,7 +121,7 @@ graph TD
 ## Assumptions Made
 
 1. **English Language**: The text extraction, document chunking parameters, and QA chain prompt assume the source documents are primary-language English.
-2. **Text-Based PDFs**: The system assumes PDF uploads are searchable text-based PDFs (and not scanned image documents, which would require an OCR layer like Tesseract).
+2. **Text-Based PDFs**: The system assumes PDF uploads are searchable text-based PDFs (and not scanned image documents).
 3. **Single-Tenant Use**: The application is configured for single-tenant use with a shared local database (`chroma_db/`). No multi-user authentication, authorization, or document isolation namespaces are implemented.
 4. **Document Retention**: Once files are indexed, they persist locally inside `/chroma_db` across server restarts until the database is explicitly wiped via the `/api/clear` endpoint.
 5. **Local Environment Constraints**: CPU processing is assumed to be the default standard for computing local text embeddings (using PyTorch CPU runtime under sentence-transformers).
